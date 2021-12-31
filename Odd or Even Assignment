@@ -1,0 +1,23 @@
+while True:
+    number = int(input("\nEnter a number to check or enter a zero to end the check: "))
+    if number == 0:
+        print ("Thank you for checking! Goodbye!") 
+        break
+    if number % 2 == 0:
+        print ("You picked an Even Number.")
+    else:
+        print ("You picked an Odd Number.")
+       =========================================================================================
+while True:
+    num = int(input("\nEnter a number to check or enter 'quit': "))
+    if num % 5 == 0:
+        print("Thank you! " + str(num) + " is a multiple of FIVE.")
+    elif num % 3 == 0 and num % 2 ==0 and num % 4 == 0:
+        print("Thank you! " + str(num) + " is a multiple of THREE, TWO and FOUR.")
+    elif num % 4 == 0:
+        print("Thank you! " + str(num) + " is a multiple of FOUR.")
+    elif num % 2 == 0:
+        print("Thank you! " + str(num) + " is a multiple of TWO.")
+    else:
+        print("I'm not sure what " + str(num)+ " is a multiple of LOL.")
+       
